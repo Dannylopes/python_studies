@@ -17,4 +17,14 @@ maior_de_idade = True
 
 print(nome, "possui", idade, "anos e", altura, "de altura")
 
-print("Daniel \" Mota")
+print("Daniel \"Mota")
+
+
+idade_daniel = 42
+
+idade_tati = 41
+print("A diferença de idade entre Daniel e Tati é de", idade_daniel - idade_tati, "ano(s)")
+
+print(type(idade_daniel))
+
+
