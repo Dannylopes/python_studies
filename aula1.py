@@ -27,4 +27,29 @@ print("A diferença de idade entre Daniel e Tati é de", idade_daniel - idade_ta
 
 print(type(idade_daniel))
 
+validacao = idade_daniel > idade_tati
 
+print(validacao)
+
+print(type(validacao))
+
+print(type(10 + 11.3))
+
+print('a' + '1')
+
+#Coerção de tipos
+print(int('1')) # Aqui digitou-se um string e o python converteu para int
+
+print(float('1.2')) # Aqui digitou-se um string e o python converteu para float
+
+print(bool(1))
+
+import re
+
+numero = input("Digite sua idade: ")
+
+numero_limpo = re.sub(r'[^0-9]', '', numero)
+
+resultado = int(numero_limpo)
+
+print(nome , 'possui', resultado, 'anos')
