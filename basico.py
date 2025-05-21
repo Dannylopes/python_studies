@@ -1,5 +1,7 @@
 '''
 Isso é um Docstring
+Ctrl + Alt + N para executar o código
+
 '''
 
 print("Olá Mundo python")
