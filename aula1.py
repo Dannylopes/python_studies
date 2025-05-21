@@ -46,6 +46,7 @@ print(bool(1))
 
 import re
 
+# Limpando o input que aceita letras e outros caracteres
 numero = input("Digite sua idade: ")
 
 numero_limpo = re.sub(r'[^0-9]', '', numero)
